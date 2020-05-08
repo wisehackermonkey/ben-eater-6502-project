@@ -1,0 +1,6 @@
+{
+    "port": "COM16",
+    "board": "arduino:avr:uno",
+    "programmer": "AVRISP mkII",
+    "sketch": "arduino-code\\clock-stepper-v1\\clock-stepper-v1.ino"
+}
