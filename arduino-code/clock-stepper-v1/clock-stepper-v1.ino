@@ -1,4 +1,4 @@
-//arduino version of  Ben Eater's Clock Kit module 
+//arduino version of  Ben Eater's Clock Kit module
 // by oran collins
 // github.com/wisehackermonkey
 // oranbusiness@gmail.com
@@ -27,22 +27,21 @@ long time = 0;         // the last time the output pin was toggled
 long debounce = 200;   // the debounce time, increase if the output flickers
 
 
-void step(){
+void step() {
   reading = digitalRead(inPin);
 
-  // if the input just went from LOW and HIGH and we've waited long enough
-  // to ignore any noise on the circuit, toggle the output pin and remember
-  // the time
+  //software debounce the button press so it only registers 1 press at a time
   if (reading == HIGH && previous == LOW && millis() - time > debounce) {
-    if (state == HIGH)
-      state = LOW;
-    else
-      state = HIGH;
+   
+    digitalWrite(outPin, LOW);
+    delay(100);
+    digitalWrite(outPin, HIGH);
+    delay(100);
+    digitalWrite(outPin, LOW);
+    delay(100);
 
-    time = millis();    
+    time = millis();
   }
-
-  digitalWrite(outPin, state);
 
   previous = reading;
 }
@@ -62,7 +61,7 @@ void loop() {
   val = analogRead(potPin);    // read the value from the sensorp
   if (buttonState == HIGH) {
     step();
-    
+
 
 
 
