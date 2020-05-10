@@ -21,6 +21,11 @@ oranbusiness@gmail.com
 ```
 ```
 
+----
+# TODO
+- add photos of arduino parts
+- add skematic for arduino build
+
 # credits
 - 
 - 
