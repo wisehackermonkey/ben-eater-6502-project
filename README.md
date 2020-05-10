@@ -10,8 +10,9 @@ oranbusiness@gmail.com
 
 
 
-
-
+## Resources 
+- TL866II_Plus [download for chip programmer software windows](http://forums.xgecu.com/viewthread.php?tid=20&page=1&extra=#pid23
+)
 
 
 
