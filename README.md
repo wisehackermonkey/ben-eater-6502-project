@@ -30,3 +30,6 @@ oranbusiness@gmail.com
 - 
 - 
 - Build a 6502 computer https://eater.net/6502  20200507
+
+<script type="text/javascript" src="https://www.free-counters.org/count/5vcu"></script><br>
+ <a href='http://www.counter-zaehler.de'>Counter html Code</a> <script type='text/javascript' src='https://whomania.com/ctr?id=ec23091a43fe6d4a4f1797b0af3d7976d8ed5bb1'></script>
